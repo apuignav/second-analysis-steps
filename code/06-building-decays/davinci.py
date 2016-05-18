@@ -1,4 +1,5 @@
-from Configurables import DaVinci, IoHelper
+from Configurables import DaVinci
+from GaudiConf import IOHelper
 
 DaVinci().InputType = 'DST'
 DaVinci().TupleFile = 'DVntuple.root'
